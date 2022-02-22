@@ -9,14 +9,14 @@ public class test {
 		
 		aplicativo.consultarFatura("17220559950","senhaLegal");
 		
-		aplicativo.comprarItem("17220559950", "senhaLegal", 20, 5000, "arm·rio", "05/11/2009");// valor extrapola limite
+		aplicativo.comprarItem("17220559950", "senhaLegal", 20, 5000, "arm√°rio", "05/11/2009");// valor extrapola limite
 		
 		aplicativo.consultarFatura("17220559951","senhaLegal"); //cpf errado
 		aplicativo.consultarFatura("17220559950","senhaRuim"); //senha errada
 		
 		aplicativo.consultarFatura("17220559950","senhaLegal");
 	
-		aplicativo.comprarItem("17220559950", "senhaLegal", 20, 500, "arm·rio", "05/11/2009");
+		aplicativo.comprarItem("17220559950", "senhaLegal", 20, 500, "arm√°rio", "05/11/2009");
 		
 		aplicativo.consultarFatura("17220559950","senhaLegal");
 		
